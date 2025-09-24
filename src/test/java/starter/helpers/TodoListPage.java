@@ -3,9 +3,10 @@ package starter.helpers;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.annotations.DefaultUrl;
+import static starter.helpers.PageConfigs.get;
 
 
-@DefaultUrl("page:myurl")
+@DefaultUrl("pages.myurl")
 public class TodoListPage extends PageObject {
     public static Target ITEM_NAME_FIELD = Target.the("item name field").locatedBy("//textarea[@aria-label='Search']");
 

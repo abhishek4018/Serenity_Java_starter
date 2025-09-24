@@ -1,0 +1,8 @@
+{
+    "maven.terminal.favorites": [
+        {
+            "command": "clean verify -Dcucumber.filter.tags=@smoke",
+            "debug": false
+        }
+    ]
+}

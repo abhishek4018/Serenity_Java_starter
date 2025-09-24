@@ -11,10 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>4.1.6</serenity.version>
-        <junit-vintage-engine.version>5.10.1</junit-vintage-engine.version>
-        <junit-platform-suite.version>1.10.2</junit-platform-suite.version>
-        <cucumber-junit-platform-engine.version>7.16.1</cucumber-junit-platform-engine.version>
+        <serenity.version>4.2.34</serenity.version>
+        <junit-vintage-engine.version>5.11.3</junit-vintage-engine.version>
+        <junit-platform-suite.version>1.11.3</junit-platform-suite.version>
+        <cucumber-junit-platform-engine.version>7.18.1</cucumber-junit-platform-engine.version>
         <encoding>UTF-8</encoding>
         <tags></tags>
         <webdriver.base.url></webdriver.base.url>
@@ -83,7 +83,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.10</version>
+            <version>1.5.8</version>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
@@ -131,10 +131,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.13.0</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
             <plugin>
